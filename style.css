@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 30px;
+}
+.profile{
+    width:100px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+    color:teal
+}
+.contact{
+   padding: 30px;
+   float: right;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    font-size: 120%;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+.content{
+    margin-bottom: 30px;
+}
+    
+} 
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: black solid 1px;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+.education-left{
+    float: left;
+    width: 45%;
+}
+.education-left p{
+    text-align: justify;
+} 
+.education-right{
+    float: right;
+    width: 45%;
+       
+} 
+.education-right p{
+    text-align: justify;
+} 
+.jon{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+   }
+
+.jon a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+.jon p{
+    color:white;
+    margin-top: 10px;
+}
